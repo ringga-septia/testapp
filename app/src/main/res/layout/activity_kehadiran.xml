@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.data.KehadiranActivity">
+
+
+    <RelativeLayout
+        android:background="@color/bgAbu2"
+        android:id="@+id/rl_atas"
+        android:layout_width="408dp"
+        android:layout_height="114dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp">
+
+        <Button
+            android:id="@+id/btn_hadir"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/btn_izin"
+            android:fontFamily="casual"
+            android:text="Hadir"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:id="@+id/tv_alva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="76dp"
+            android:text="alfa"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_alva"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="44dp"
+            android:fontFamily="casual"
+            android:text="alfa"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_izin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="103dp"
+            android:layout_marginTop="77dp"
+            android:layout_toEndOf="@+id/tv_alva"
+            android:fontFamily="casual"
+            android:text="izin"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_izin"
+            android:layout_width="wrap_content"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="13dp"
+            android:layout_toEndOf="@+id/btn_alva"
+            android:fontFamily="casual"
+            android:text="izin"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textStyle="bold"
+            android:fontFamily="casual"
+            android:id="@+id/tv_hadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="79dp"
+            android:layout_toEndOf="@+id/tv_izin"
+            android:text="hadir"
+            android:textSize="20dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
